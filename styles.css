@@ -1,4 +1,39 @@
-.div
-{
-    float: left;
+p.introductory-paragraph {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.col-img {
+    flex: 0 0 30%; /* Set the image column to occupy 30% of the container */
+}
+
+.col-text {
+    flex: 1; /* Set the text column to occupy the remaining space */
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+h4 {
+    color: gray;
+}
+
+a.url {
+    color: green;
+}
+
+p.index-enjoy {
+    padding-left: 5%;
+    padding-right: 5%;
 }
