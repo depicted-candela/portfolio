@@ -1,71 +1,199 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <link href="styles.css" rel="stylesheet">
-        <title>Nicolás Córdoba</title>
-    </head>
-    <body>
 
-      <hr>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Nicolás Córdoba</title>
+</head>
 
-      <div class="container text-center">
-          <div class="row">
-              <div class="col">
-                  <a class="nav-link url"
-                      href="index.html"><b>Presentation</b></a>
-              </div>
-              <div class="col">
-                  <a class="nav-link url"
-                      href="/social_networks.html"><b>Networks</b></a>
-              </div>
-              <div class="col">
-                  <a class="nav-link url"
-                      href="/projects.html"><b>Dev Projects</b></a>
-              </div>
-              <div class="col">
-                  <a class="nav-link url"
-                      href="/experience.html"><b>Experience</b></a>
-              </div>
-          </div>
-      </div>
+<body>
 
-      <hr>
+    <hr>
 
-      <div class="container">
-        <h1 class="text-center">Nicolás Córdoba Castelblanco ~ Depiction</h1>
-        <div class="row">
-          <div class="col-md-4 col-img">
-            <img class="mx-auto d-block" src="images/me.jpeg" width="100%">
-          </div>
-          <div class="col-md-5 col-text">
-            <p class="text-justify">Write me to <b>nicalcoca@gmail.com</b></p>
-            <p class="text-justify">I am a software developer focused on <b>web solutions</b> to enhance my skills and grow my own organizations: <b>ESPÆCIAL</b> and <b>GLOSS-SHOES</b>.</p>
-            <p class="text-justify">Because the value <b>teamwork</b> I started a couple of years ago <b>leading teams</b> for high-quality project delivery.</p>
-            <p class="text-justify">I am <b>writing</b> the ecommerce GLOSS-SHOES, actually looking for partners to collaborate and creating business with the logistics team.</p>
-            <p class="text-justify">Around my <a class="url" href="https://youtube.com/@nicalcoca">YouTube channel</a> I am <b>creating a community</b> sharing my knowledge in Computer Science with my friends and the general public.</p>
-            <p class="text-justify">I have leaded several from non profit throught my undergraduate degree to high-impact projects like the geoid model <b>for Colombia</b></p>
-          </div>
+    <!-- English Content -->
+    <div class="container" id="englishContent">
+    
+    <hr>
+
+    <div class="container text-center">
+
+		  <div class="row">
+
+        <div class="col">
+          <a class="nav-link url"
+              href="index.html"><b>Yo</b></a>
         </div>
-        <div>
-          <h3 class="text-center">Goals</h3>
-          <p class="text-justify"><b>Short-term</b>: Increase the GLOSS-SHOES web page engagement, attract people to the non-profit ESPÆCIAL's project Universal Magna Sirgas, add marketing and Data Science tools to the GLOSS-SHOES web engine for enhancing the UX.</p>
-          <p class="text-justify"><b>Mid-term</b>: Study a master's degree at a top institution, start convergent studies about advanced geodesy and associated mathematics.</p>
-          <p class="text-justify"><b>Long-term</b>: Lead the GLOSS-SHOES e-commerce and make ESPÆCIAL profitable.</p>
+
+        <div class="col">
+          <a class="nav-link url"
+              href="/social_networks.html"><b>Networks</b></a>
         </div>
-      </div>
 
-      <hr>
+        <div class="col">
+          <a class="nav-link url"
+              href="/projects.html"><b>Dev Projects</b></a>
+        </div>
 
-      <div class="row text-center">
-        <h3 class="text-center">What I enjoy?</h3>
-        <p class="index-enjoy">I really love reading and writing, I realized that reading philosophy and many critical or imaginative essays. Since a talented programmer must read others code (including documentation and theoretical books) and write own to be enjoyable for others, I found that <strong>CODING</strong> is a routine that makes me happy.</p>
-      </div>
+        <div class="col">
+          <a class="nav-link url"
+              href="/experience.html"><b>Experience</b></a>
+        </div>
 
+        <div class="col">
+          <select id="languageSelect" class="form-select" aria-label="Language Select">
+              <option value="en">English</option>
+              <option value="es">Español</option>
+          </select>
+        </div>
+
+		  </div>
     </div>
-  </body>
+
+    <hr>
+
+	  <div class="container">
+		
+    <h1 class="text-center">Nicolás Córdoba Castelblanco ~ Depiction</h1>
+		<div class="row">
+		  <div class="col-md-4 col-img">
+		    <img class="mx-auto d-block" src="images/me.jpeg" width="100%">
+		  </div>
+		  <div class="col-md-5 col-text">
+		    <p class="text-justify">Write me to <b>nicalcoca@gmail.com</b></p>
+		    <p class="text-justify">I am a software developer focused on <b>web solutions</b> to enhance my skills and grow my own organizations: <b>ESPÆCIAL</b> and <b>GLOSS-SHOES</b>.</p>
+		    <p class="text-justify">Because the value <b>teamwork</b> I started a couple of years ago <b>leading teams</b> for high-quality project delivery.</p>
+		    <p class="text-justify">I am <b>writing</b> the ecommerce GLOSS-SHOES, actually looking for partners to collaborate and creating business with the logistics team.</p>
+		    <p class="text-justify">Around my <a class="url" href="https://youtube.com/@nicalcoca">YouTube channel</a> I am <b>creating a community</b> sharing my knowledge in Computer Science with my friends and the general public.</p>
+		    <p class="text-justify">I have leaded several from non profit throught my undergraduate degree to high-impact projects like the geoid model <b>for Colombia</b></p>
+		  </div>
+		</div>
+		<div>
+		  <h3 class="text-center">Goals</h3>
+		  <p class="text-justify"><b>Short-term</b>: Increase the GLOSS-SHOES web page engagement, attract people to the non-profit ESPÆCIAL's project Universal Magna Sirgas, add marketing and Data Science tools to the GLOSS-SHOES web engine for enhancing the UX.</p>
+		  <p class="text-justify"><b>Mid-term</b>: Study a master's degree at a top institution, start convergent studies about advanced geodesy and associated mathematics.</p>
+		  <p class="text-justify"><b>Long-term</b>: Lead the GLOSS-SHOES e-commerce and make ESPÆCIAL profitable.</p>
+		</div>
+	      </div>
+
+	      <hr>
+
+	      <div class="row text-center">
+		<h3 class="text-center">What I enjoy?</h3>
+		<p class="index-enjoy">I really love reading and writing, I realized that reading philosophy and many critical or imaginative essays. Since a talented programmer must read others code (including documentation and theoretical books) and write own to be enjoyable for others, I found that <strong>CODING</strong> is a routine that makes me happy.</p>
+	      </div>
+
+	    </div>
+    
+    </div>
+
+    <!-- Spanish Content (Initially Hidden) -->
+    <div class="container" id="spanishContent" style="display: none;">
+    
+    <hr>
+
+	<div class="container text-center">
+	  <div class="row">
+
+      <div class="col">
+          <a class="nav-link url"
+              href="index.html"><b>Presentación</b></a>
+      </div>
+
+      <div class="col">
+          <a class="nav-link url"
+              href="/social_networks.html"><b>Redes Sociales</b></a>
+      </div>
+
+      <div class="col">
+          <a class="nav-link url"
+              href="/projects.html"><b>Proyectos de Desarrollo</b></a>
+      </div>
+
+      <div class="col">
+          <a class="nav-link url"
+              href="/experience.html"><b>Experiencia</b></a>
+      </div>
+
+      <div class="col">
+        <select id="languageSelect" class="form-select" aria-label="Language Select">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+        </select>
+      </div>
+
+	  </div>
+	</div>
+
+	<hr>
+
+	<div class="container">
+	    <h1 class="text-center">Nicolás Córdoba Castelblanco ~ Depiction</h1>
+	    <div class="row">
+		<div class="col-md-4 col-img">
+		    <img class="mx-auto d-block" src="images/me.jpeg" width="100%">
+		</div>
+		<div class="col-md-5 col-text">
+		    <p class="text-justify">Escríbeme a <b>nicalcoca@gmail.com</b></p>
+		    <p class="text-justify">Soy un desarrollador de software enfocado en <b>soluciones web</b> para mejorar mis habilidades y hacer crecer mis propias organizaciones: <b>ESPÆCIAL</b> y <b>GLOSS-SHOES</b>.</p>
+		    <p class="text-justify">Debido al valor del <b>trabajo en equipo</b>, comencé hace unos años a <b>liderar equipos</b> para la entrega de proyectos de alta calidad.</p>
+		    <p class="text-justify">Estoy <b>escribiendo</b> el comercio electrónico GLOSS-SHOES, actualmente buscando socios para colaborar y crear negocios con el equipo de logística.</p>
+		    <p class="text-justify">A través de mi <a class="url" href="https://youtube.com/@nicalcoca">canal de YouTube</a> estoy <b>creando una comunidad</b> compartiendo mis conocimientos en Ciencias de la Computación con mis amigos y el público en general.</p>
+		    <p class="text-justify">He liderado varios proyectos sin fines de lucro durante mi carrera universitaria hasta proyectos de alto impacto como el modelo geoidal <b>para Colombia</b>.</p>
+		</div>
+	    </div>
+	    <div>
+		<h3 class="text-center">Metas</h3>
+		<p class="text-justify"><b>Corto plazo</b>: Aumentar la participación en la página web de GLOSS-SHOES, atraer personas al proyecto Universal Magna Sirgas de ESPÆCIAL, agregar herramientas de marketing y Ciencia de Datos al motor web de GLOSS-SHOES para mejorar la experiencia del usuario.</p>
+		<p class="text-justify"><b>Mediano plazo</b>: Estudiar una maestría en una institución de primer nivel, comenzar estudios convergentes sobre geodesia avanzada y matemáticas asociadas.</p>
+		<p class="text-justify"><b>Largo plazo</b>: Liderar el comercio electrónico de GLOSS-SHOES y hacer rentable a ESPÆCIAL.</p>
+	    </div>
+	</div>
+
+	<hr>
+
+	<div class="row text-center">
+	    <h3 class="text-center">¿Qué disfruto?</h3>
+	    <p class="index-enjoy">Realmente disfruto leyendo y escribiendo, me di cuenta de que leyendo filosofía y muchos ensayos críticos o imaginativos. Dado que un programador talentoso debe leer el código de otros (incluida la documentación y libros teóricos) y escribir el propio para ser agradable para otros, descubrí que <strong>PROGRAMAR</strong> es una rutina que me hace feliz.</p>
+	</div>
+
+	</div>
+
+    
+    
+    </div>
+    
+    <hr>
+
+    <script>
+        // JavaScript to toggle between English and Spanish content
+        const languageSelect = document.getElementById('languageSelect');
+        const englishContent = document.getElementById('englishContent');
+        const spanishContent = document.getElementById('spanishContent');
+
+        languageSelect.addEventListener('change', function () {
+            if (languageSelect.value === 'en') {
+                englishContent.style.display = 'block';
+                spanishContent.style.display = 'none';
+            } else if (languageSelect.value === 'es') {
+                englishContent.style.display = 'none';
+                spanishContent.style.display = 'block';
+            }
+        });
+    </script>
+
+    <footer class="footer">
+        <div class="container text-justify">
+            <p class="text-justify"><b>nicalcoca@gmail.com</b></p>
+        </div>
+    </footer>
+
+</body>
+
 </html>
