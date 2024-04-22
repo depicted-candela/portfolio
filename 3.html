@@ -15,12 +15,8 @@
 
 <body>
 
-    <hr>
-
     <!-- English Content -->
     <div class="container" id="englishContent">
-        
-        <hr>
 
         <div class="container text-center">
             <div class="row">
@@ -41,13 +37,11 @@
                 </div>
 
                 <div class="col">
-                    <a class="nav-link url"
-                        href="/experience.html"><b>Experience</b></a>
+                    <a class="nav-link url" href="/experience.html"><b>Experience</b></a>
                 </div>
 
                 <div class="col">
-                    <a class="nav-link url"
-                        href="/3.html"><b>3</b></a>
+                    <a class="nav-link url" href="/3.html"><b>3</b></a>
                 </div>
 
                 <div class="col">
@@ -56,6 +50,7 @@
                         <option value="es">Español</option>
                     </select>
                 </div>
+
             </div>
         </div>
 
@@ -101,45 +96,6 @@
     <!-- Spanish Content (Initially Hidden) -->
     <div class="container" id="spanishContent" style="display: none;">
 
-		<hr>
-
-		<div class="container text-center">
-
-		    <div class="row">
-
-                <div class="col">
-                    <a class="nav-link url" href="index.html"><b>Yo</b></a>
-                </div>
-
-                <div class="col">
-                    <a class="nav-link url" href="/social_networks.html"><b>Redes</b></a>
-                </div>
-
-                <div class="col">
-                    <a class="nav-link url" href="/projects.html"><b>Proyectos de Desarrollo</b></a>
-                </div>
-
-                <div class="col">
-                    <a class="nav-link url" href="/experience.html"><b>Experiencia</b></a>
-                </div>
-
-                <div class="col">
-                    <a class="nav-link url" href="/3.html"><b>3</b></a>
-                </div>
-
-                <div class="col">
-                    <select id="languageSelectEs" class="form-select" aria-label="Language Select">
-                    <option value="es">Español</option>
-                    <option value="en">English</option>
-                    </select>
-                </div>
-
-		    </div>
-
-		</div>
-
-		<hr>
-
         <div class="container text-center">
             <div class="row">
 
@@ -148,15 +104,15 @@
                 </div>
 
                 <div class="col">
-                    <a class="nav-link url" href="/redes_sociales.html"><b>Redes Sociales</b></a>
+                    <a class="nav-link url" href="/social_networks.html"><b>Redes Sociales</b></a>
                 </div>
 
                 <div class="col">
-                    <a class="nav-link url" href="/proyectos.html"><b>Proyectos de Desarrollo</b></a>
+                    <a class="nav-link url" href="/projects.html"><b>Proyectos de Desarrollo</b></a>
                 </div>
 
                 <div class="col">
-                    <a class="nav-link url" href="/experiencia.html"><b>Experiencia</b></a>
+                    <a class="nav-link url" href="/experience.html"><b>Experiencia</b></a>
                 </div>
 
                 <div class="col">
@@ -210,37 +166,35 @@
             </div>
         </div>
     </div>
-    
-    <hr>
 
-	  <script>
-			// JavaScript to toggle between English and Spanish content
-			const languageSelectEn = document.getElementById('languageSelectEn');
-			const languageSelectEs = document.getElementById('languageSelectEs');
-			const englishContent = document.getElementById('englishContent');
-			const spanishContent = document.getElementById('spanishContent');
+    <script>
+        // JavaScript to toggle between English and Spanish content
+        const languageSelectEn = document.getElementById('languageSelectEn');
+        const languageSelectEs = document.getElementById('languageSelectEs');
+        const englishContent = document.getElementById('englishContent');
+        const spanishContent = document.getElementById('spanishContent');
 
-			languageSelectEn.addEventListener('change', function () {
-				if (languageSelectEn.value === 'en') {
-					englishContent.style.display = 'block';
-					spanishContent.style.display = 'none';
-				} else if (languageSelectEn.value === 'es') {
-					englishContent.style.display = 'none';
-					spanishContent.style.display = 'block';
-				}
-			});
+        languageSelectEn.addEventListener('change', function () {
+            if (languageSelectEn.value === 'en') {
+                englishContent.style.display = 'block';
+                spanishContent.style.display = 'none';
+            } else if (languageSelectEn.value === 'es') {
+                englishContent.style.display = 'none';
+                spanishContent.style.display = 'block';
+            }
+        });
 
-			languageSelectEs.addEventListener('change', function () {
-				if (languageSelectEs.value === 'es') {
-					englishContent.style.display = 'none';
-					spanishContent.style.display = 'block';
-				} else if (languageSelectEs.value === 'en') {
-					englishContent.style.display = 'block';
-					spanishContent.style.display = 'none';
-				}
-			});
+        languageSelectEs.addEventListener('change', function () {
+            if (languageSelectEs.value === 'es') {
+                englishContent.style.display = 'none';
+                spanishContent.style.display = 'block';
+            } else if (languageSelectEs.value === 'en') {
+                englishContent.style.display = 'block';
+                spanishContent.style.display = 'none';
+            }
+        });
 
-	  </script>
+    </script>
 
     <footer class="footer">
         <div class="container text-justify">
