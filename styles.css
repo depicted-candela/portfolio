@@ -37,3 +37,7 @@ p.index-enjoy {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+a[class="nav-link url"] {
+    font-size: x-large;
+}
