@@ -1,0 +1,114 @@
+/* espæcial.css */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #00509e;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+a.nav-link.url {
+    font-weight: bold;
+    color: #00509e;
+}
+
+a.nav-link.url:hover {
+    color: #0077cc;
+}
+
+.btn-primary {
+    background-color: #00509e;
+    border-color: #00509e;
+}
+
+.btn-primary:hover {
+    background-color: #0077cc;
+    border-color: #0077cc;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.text-muted {
+    color: #888 !important;
+}
+
+.cs-content {
+    margin-top: 20px;
+}
+
+.cs-key-points {
+    margin-top: 20px;
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.cs-key-points ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.cs-additional-resources {
+    margin-top: 20px;
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.cs-additional-resources ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.cs-back-link {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cs-contact {
+    margin-top: 30px;
+    background-color: #f1f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cs-contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cs-contact li {
+    margin-bottom: 10px;
+}
+
+.espæcial {
+    font-size: 2rem;
+    color: #00509e;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+}
