@@ -33,6 +33,10 @@ a.url {
     color: green;
 }
 
+a {
+    text-decoration: none;
+}
+
 p.index-enjoy {
     padding-left: 5%;
     padding-right: 5%;
